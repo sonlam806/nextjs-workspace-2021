@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-unfetch'
 import React from 'react'
-import Tag from '../components/Tag'
+import Tag from '../src/atoms/Tag/Tag'
 
 interface Bloop {
   content: string
@@ -28,7 +28,7 @@ const Index = (props: IndexProps) => (
   </div>
 )
 
-Index.getInitialProps = async function() {
+Index.getInitialProps = async function () {
   const res = await fetch('https://rainier.builtwithdark.com/bloops')
   const data = await res.json()
   return {
