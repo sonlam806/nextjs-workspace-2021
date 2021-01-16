@@ -1,4 +1,4 @@
-# ts-nextjs-tailwindcss-storybook-starter
+# ts-nextjs-tailwindcss-storybook-atomicDesign-starter
 
 A starter including
 
