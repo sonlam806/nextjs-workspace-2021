@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rainiera/ts-nextjs-tailwindcss-storybook-starter.git"
+    "url": "git+https://github.com/sonlam806/nextjs-workspace-2021.git"
   },
   "keywords": [],
   "author": "rainiera",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rainiera/ts-nextjs-tailwindcss-storybook-starter/issues"
+    "url": "https://github.com/sonlam806/nextjs-workspace-2021/issues"
   },
-  "homepage": "https://github.com/rainiera/ts-nextjs-tailwindcss-storybook-starter#readme",
+  "homepage": "https://github.com/sonlam806/nextjs-workspace-2021#readme",
   "dependencies": {
     "@storybook/cli": "^6.0.22",
     "autoprefixer": "9.8.6",
