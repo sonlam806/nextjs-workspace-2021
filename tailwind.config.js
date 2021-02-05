@@ -4,10 +4,8 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   theme: {
-    fontFamily: {
-      sans: ['IBM Plex Sans', '-apple-system'],
-      serif: ['PT Serif', '-apple-system'],
-      mono: ['IBM Plex Mono', '-apple-system'],
+    colors: {
+      primary: '#B0B2C3',
     },
     extend: {},
   },

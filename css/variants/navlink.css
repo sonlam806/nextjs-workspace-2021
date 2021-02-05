@@ -1,0 +1,5 @@
+@variants focus, hover {
+  .text-white {
+    color: #ffffff;
+  }
+}

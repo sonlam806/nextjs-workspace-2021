@@ -1,3 +1,14 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@variants focus, hover {
+  .text-white {
+    color: #ffffff;
+  }
+}
+
+.nav-link {
+  @apply relative inline-block text-base font-bold no-underline capitalize text-primary;
+  transition: color 0.35s ease;
+}
