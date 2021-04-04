@@ -8,7 +8,9 @@ interface INavLink {
 export default function NavLink({ label }: INavLink) {
   return (
     <Link href={`/${label}`}>
-      <a className="nav-link">label</a>
+      <li className="nav-link">
+        <a>{label}</a>
+      </li>
     </Link>
   )
 }

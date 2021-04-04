@@ -1,0 +1,22 @@
+.nav-content {
+  width: auto;
+  max-width: 1170px;
+  min-width: 920px;
+  margin: 0px auto;
+
+  .nav-logo {
+    padding: 10px 0px;
+    font-size: 60px;
+  }
+
+  .nav-link {
+    margin-left: 40px;
+    a {
+      svg {
+        width: 40px;
+        height: 20px;
+        fill: #b0b2c3;
+      }
+    }
+  }
+}
