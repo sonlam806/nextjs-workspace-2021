@@ -1,12 +1,15 @@
+import { useTheme } from 'next-themes'
 import NavLink from '../../atoms/NavLink/NavLink'
 
 import { NAVLINKS } from '../../constant'
 
 export default function NavBar() {
+  const { theme, setTheme } = useTheme()
+
   return (
     <nav className="fixed top-0 left-0 flex items-center justify-between w-full">
       <div className="flex items-center justify-between nav-content">
-        <div className="nav-logo">Brand</div>
+        <div className="nav-logo dark:text-pink-900">Brand</div>
         <div>
           <ul>
             {NAVLINKS.map((link, index) => (
@@ -14,7 +17,11 @@ export default function NavBar() {
             ))}
             {/* change dark/light theme */}
             <li className="nav-link">
-              <a href="#" id="change-theme">
+              <a
+                href="#"
+                id="change-theme"
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 285.919 285.919"
@@ -29,3 +36,4 @@ export default function NavBar() {
     </nav>
   )
 }
+
